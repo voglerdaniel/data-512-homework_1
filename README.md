@@ -1,4 +1,4 @@
-# Homework 1
+# DATA 512: Human-Centered Data Science – Homework 1
 
 The goal of this project is to collect, process, and analyze a set of data about pageviews for ~1700 English Wikipedia articles related to rare diseases.
 
@@ -17,4 +17,19 @@ After reading this `README.md`, viewers should refer to the `building_article_vi
 
 It also generates four intermediate `.json` data files representing various stages on the way to generating the outputs described above. Those can be found in the `intermediate` folder; `building_article_views_datasets.ipynb` explains their purpose.
 
-After understanding how the dataset was created, viewers should reference `code/rare_diseases_analysis.ipynb`.
+After understanding how the dataset was created, viewers should reference `code/rare_diseases_analysis.ipynb`. This notebook contains the initial visual analysis carried out on the datasets created during the first step. It produces `.png` figures in the `output/plots` folder:
+- [fig1.png](output/plots/fig1.png)
+- [fig1_log](output/plots/fig1_log.png)
+- [fig2.png](output/plots/fig2.png)
+- [fig2_log.png](output/plots/fig2_log.png)
+- [fig3.png](output/plots/fig3.png)
+
+---
+
+## Dataset Schema
+
+The datasets in the [output](output) folder follow the JSON schema below:
+
+```
+hello world
+```
