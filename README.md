@@ -31,5 +31,20 @@ After understanding how the dataset was created, viewers should reference `code/
 The datasets in the [output](output) folder follow the JSON schema below:
 
 ```
-hello world
+{
+    "Name of Rare Disease" : {
+        "items" : [ --- each item is a monthly number of pageviews
+            {
+                {
+                "project": "en.wikipedia",
+                "article": "Name of Rare Disease",
+                "granularity": "monthly",
+                "timestamp": "2015070100",
+                "agent": "user",
+                "views": 36798 -- the number of views this rare disease's wikipedia page got in a particular month
+            }
+            }
+        ]
+    }
+}
 ```
