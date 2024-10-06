@@ -39,9 +39,10 @@ The datasets in the [output](output) folder follow the JSON schema below:
                 "project": "en.wikipedia",
                 "article": "Name of Rare Disease",
                 "granularity": "monthly",
-                "timestamp": "2015070100",
+                "timestamp": "2015070100", --- the month in question
                 "agent": "user",
-                "views": 36798 -- the number of views this rare disease's wikipedia page got in a particular month
+                "views": 36798  --- the number of views this rare 
+                                --- disease's wikipedia page got in a particular month
             }
             }
         ]
